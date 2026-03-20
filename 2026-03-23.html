@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bay Window — What's On in Dún Laoghaire-Rathdown, 23–30 March 2026</title>
-  <meta name="description" content="What's on in Dún Laoghaire-Rathdown this week.">
+  <title>The Bay Window — What’s On in Dún Laoghaire-Rathdown, 23–30 March 2026</title>
+  <meta name="description" content="What’s on in Dún Laoghaire-Rathdown this week.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800&display=swap" rel="stylesheet">
@@ -103,7 +103,7 @@
   <div class="hero-overlay"></div>
   <div class="hero-inner">
     <div class="hero-tag"><span class="hero-dot"></span>Dún Laoghaire-Rathdown &nbsp;·&nbsp; Updated weekly</div>
-    <h1 class="hero-title">The Bay<br>Window<span>What's On &nbsp;·&nbsp; 23–30 March 2026</span></h1>
+    <h1 class="hero-title">Bay<br>Window<span>What’s On &nbsp;·&nbsp; 23–30 March 2026</span></h1>
     <div class="hero-actions">
       <a href="https://www.baywindow.ie" class="btn-primary"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Subscribe — it's free</a>
       <a href="https://www.baywindow.ie/archive" class="btn-ghost">Read the newsletter<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
@@ -112,97 +112,43 @@
 </section>
 <div class="count-strip">
   <div class="count-inner">
-    <div class="count-item"><strong>15</strong><span>events this week</span></div>
+    <div class="count-item"><strong>{{TOTAL_EVENTS}}</strong><span>events this week</span></div>
     <div class="count-sep"></div>
-    <div class="count-item"><strong>3</strong><span>categories</span></div>
+    <div class="count-item"><strong>{{TOTAL_CATEGORIES}}</strong><span>categories</span></div>
     <div class="count-sep"></div>
-    <div class="count-item"><strong>6</strong><span>free to attend</span></div>
+    <div class="count-item"><strong>{{FREE_EVENTS}}</strong><span>free to attend</span></div>
   </div>
 </div>
 <main class="main">
+
 <section class="cat-section">
-  <div class="cat-strip">
-    <div class="cat-strip-left"><div class="cat-bar"></div><span class="cat-name">Live Music</span></div>
-    <span class="cat-count">11 events</span>
+  <div class="cat-strip"><div class="cat-strip-left"><div class="cat-bar"></div><span class="cat-name">Event Spotlight</span></div><span class="cat-count">3 events</span></div
+
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <p class="footer-brand">Bay<br>Window</p>
+        <p class="footer-tagline">A weekly guide to what’s on in Dún Laoghaire-Rathdown. Curated by locals, for locals.</p>
+        <a href="https://www.baywindow.ie" class="footer-btn"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>Subscribe free</a>
+      </div>
+      <div class="footer-stats">
+        <div class="stat-card"><p class="stat-num">{{TOTAL_EVENTS}}</p><p class="stat-label">Events this week</p></div>
+        <div class="stat-card"><p class="stat-num">{{FREE_EVENTS}}</p><p class="stat-label">Free to attend</p></div>
+        <div class="stat-card"><p class="stat-num">{{TOTAL_CATEGORIES}}</p><p class="stat-label">Categories</p></div>
+        <div class="stat-card"><p class="stat-num">DÚN</p><p class="stat-label">Your area</p></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p class="footer-copy">© 2026 The Bay Window. Updated weekly.</p>
+      <div class="footer-links">
+        <a href="https://andrewsykes.notion.site/Bay-Window-Privacy-Policy-2085933e37df802fafe4ee8d46e1d563" target="_blank" rel="noopener">Privacy policy</a>
+        <a href="https://andrewsykes.notion.site/Terms-Conditions-2d95933e37df80258cfad4ca357b4dc2" target="_blank" rel="noopener">Terms &amp; conditions</a>
+        <a href="https://www.baywindow.ie">baywindow.ie</a>
+      </div>
+    </div>
   </div>
-  <div class="cat-cards">
-    <a href="https://www.purtykitchen.com/events" class="event-card">
-      <div class="event-main">
-        <p class="event-title">Karma Police: A Tribute to Radiohead</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Fri 20 Mar [20:00]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>The Purty Kitchen</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://walterspub.ie/event/the-frank-and-walters-acoustic-duo/" class="event-card tint">
-      <div class="event-main">
-        <p class="event-title">The Frank and Walters – Acoustic Duo</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Fri 20 Mar [20:00]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Walters</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="badge-free">Free</span>
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://www.paviliontheatre.ie/events/" class="event-card">
-      <div class="event-main">
-        <p class="event-title">Don Baker</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Sat 21 Mar [20:00]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Pavilion Theatre</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://www.paviliontheatre.ie/events/" class="event-card tint">
-      <div class="event-main">
-        <p class="event-title">Glasshouse perform Björk</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Sun 22 Mar [15:00–19:30]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Pavilion Theatre</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://whatsontonight.ie/events/Dublin/D%C3%BAn%20Laoghaire/" class="event-card">
-      <div class="event-main">
-        <p class="event-title">The Lounge Quintet</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Sun 22 Mar [16:00]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Walters Bar</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="badge-free">Free</span>
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://whatsontonight.ie/events/Dublin/D%C3%BAn%20Laoghaire/" class="event-card tint">
-      <div class="event-main">
-        <p class="event-title">Open Mic with Kinchy</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Tue 24 Mar [20:00]</span>
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>Walters Bar</span>
-        </div>
-      </div>
-      <div class="event-actions">
-        <span class="badge-free">Free</span>
-        <span class="more-link">More info <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
-      </div>
-    </a>
-    <a href="https://whatsontonight.ie/events/Dublin/D%C3%BAn%20Laoghaire/" class="event-card">
-      <div class="event-main">
-        <p class="event-title">N.C. Lawlor</p>
-        <div class="event-meta">
-          <span class="meta-chip"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1
+</footer>
+</body>
+</html>
